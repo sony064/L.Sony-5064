@@ -1,0 +1,7 @@
+LXI H,8500
+Mov B,A
+INX H
+Sub A
+INX H
+Mov A,B
+RST 1
